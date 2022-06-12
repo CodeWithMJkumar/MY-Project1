@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+header{
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head h4{
+    padding: 0px 3px;
+    cursor: pointer;
+}
+.head p{
+    padding: 0px 3px;
+}
+.login{
+    display: flex;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    padding: 0px 3px;
+}
+.login p{
+    margin: 0px 2px;
+    color: rgb(185, 185, 185);
+    
+}
+
+
+.container-1{
+    height: 450px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0,0,0, 0.473)), url("/IMAGE/laboratory.jpg");
+    background-size: cover;
+}
+.container-1 .navbar{
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-1 .navbar h1{
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.container-1 .navbar a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 0px 25px;
+    font-size: 13px;
+}
+.container-1 .content{
+    color: white;
+    padding: 50px 80px;
+}
+.container-1 .content p{
+    padding: 10px 0px;
+}
+.container-1 .content h2{
+    padding: 3px 0px;
+    letter-spacing: 1px;
+}
+.container-1 .content button{
+    margin-top: 5px;
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(53, 150, 140);
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.courses h1{
+    text-transform: uppercase;
+    padding: 9px 0px 3px 0px;
+    font-size: 20px;
+}
+.courses hr{
+    background-color: rgb(53, 150, 140);
+    width: 10%;
+    padding: 1px;
+}
+.courses .crs-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 430px;
+    width: 100%;
+    padding-top: 5px;
+}
+.courses .crs-list .top-box{
+    display: flex;
+}
+.courses .crs-list .top-box .box{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+}
+.courses .crs-list .bottom-box{
+    display: flex;
+}
+.courses .crs-list .bottom-box .box{
+    height: 200px;
+    width: 200px;   
+    margin: 5px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box h3{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+.box a{
+    text-decoration: none;
+    margin-top: 40px;
+    padding: 5px 17px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(53, 150, 140);
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+}
+.science{
+    background-image: url(/IMAGE/science.jpeg);
+    background-size: cover;
+}
+.commerce{
+    background-image: url(/IMAGE/images\ \(2\).jpeg);
+    background-size: cover;
+}
+.arts{
+    background-image: url(/IMAGE/arts.jpeg);
+    background-size: cover;
+}
+.jrpy{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0,0,0, 0.473)), url(/IMAGE/jrpy.jpeg);
+    background-size: cover;
+}
+.os-cit{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0,0,0, 0.473)), url(/IMAGE/images\ \(5\).jpeg);
+    background-size: cover;
+}
+.pg-dca{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0,0,0, 0.473)), url(/IMAGE/pgdca.jpeg);
+    background-size: cover;
+}
+.banking{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0,0,0, 0.473)), url(/IMAGE/images\ \(2\).jpeg);
+    background-size: cover;
+}
+
+.register{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0,0,0, 0.473)), url(/IMAGE/headphones.jpg);
+    background-size: cover;
+    color: white;
+}
+.register p{
+    font-size: 15px;
+    padding: 5px 0px;
+}
+.register h3{
+    letter-spacing: 1px;
+}
+.register a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: rgb(53, 150, 140);
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+
+.about{
+    margin: 50px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(1, 1, 14);
+}
+.about .about-co{
+    display: flex;
+}
+.about .about-co .box-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin: 2px;
+    height: 280px;
+    width: 245px;
+}
+.about .about-co .box-1 h3{
+    margin-bottom: 110px;
+}
+.about .about-co .box-1 h4{
+    padding-bottom: 60px;
+}
+.about .about-co .box-1 p{
+    padding: 8px 0px;
+}
+.about .about-us{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 50px 80px 0px 80px;
+    width: 100%;
+}
+.about .about-us .designer{
+    display: flex;
+}
+.about .about-us .designer p{
+    padding: 0px 5px;
+}
+.about .about-us h4{
+    padding-right: 130px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about .about-us .link{
+    margin-bottom: 10px;
+}
+.about .about-us .link a{
+    color: white;
+    text-decoration: none;
+}
+.about .about-us .link a img{
+    height: 23px;
+    width: 23px;
+    border-radius: 13px;
+    margin: 10px;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    background-color: rgb(1, 1, 14);
+    color: white;
+}
